@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#frame {
+    border: 20px solid #D20001;
+    margin: 5% 15%;
+    padding: 5%;
+}
+
+#desc {
+    border: 10px solid green;
+    margin: 5% 15%;
+    padding: 5%;
+    outline-style: dotted;
+    outline-color: #D20001;
+    outline-width: 3%;
+}

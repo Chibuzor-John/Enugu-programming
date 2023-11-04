@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+
+.OurTeam{
+    background-color: #D4461E;
+}
+
+.card-body h6{
+    font-size: 100%;
+    font-weight: light;
+}
+
+.team{
+    color: white; 
+    text-align: center;
+    margin-top: 3rem;
+}
+.team h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.card{
+    padding: 15px;
+    border-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.card-body h6{
+    color: #9E9E9E;
+}
+
+
+.fa-brands{
+    background-color: #D4461E;
+    color: white;
+    margin-bottom: 5;
+}
+.fa-facebook-f{
+    border-radius: 360px;
+    padding: 10px 13px;
+}
+.fa-facebook-f, .fa-twitter{
+    margin-right: 20px;
+}
+.fa-twitter, .fa-instagram{
+    border-radius: 360px;
+    padding: 10px;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+}
+.footer span{
+    text-decoration: underline;
+}

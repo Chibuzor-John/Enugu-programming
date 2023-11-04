@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: brown;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  width: 60%;
+  background-color: black;
+  height: 60%;
+  margin: 3rem;
+  border-radius: 20px;
+}
+
+#form-bg {
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#form {
+  padding: 2rem 4rem 4rem 4rem;
+}
+
+#form-bg,
+#form {
+  flex-basis: 50%;
+}
+
+#form .input,
+#form select {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  height: 1.8rem;
+}
+
+#btn {
+  background-color: green;
+  border: 0;
+
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.breadcrumb nav{
+    --bs-breadcrumb-divider: '>';
+}
+.container .row div img{
+    background-color: rgb(202, 198, 198);
+}
+.linen-care{
+    text-align: center;
+}
+.linen-care p{
+    padding: 0px 400px;
+}
+
+.imgs{
+    display: flex;
+}
+.imgs .imgs1 , .imgs .imgs2, .imgs .imgs3 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.imgs .imgs2{
+    height: 30%;
+}

@@ -1,0 +1,63 @@
+.sales_wrapper{
+    display: flex;
+}
+.product{
+    width: 80%;
+}
+.collect{
+    width: 20%;
+}
+
+.collect li{
+    list-style: none;
+}
+
+.fash{
+    background-image: url(../../assets/Person.jpeg);
+    padding: 70px 20px;
+    width: 100%;
+    height: 275px;
+}
+.fash h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: orangered;
+}
+.product .btns button{
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.selc{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(236, 228, 228);
+    border-radius: 5px;
+}
+.fa-solid{
+    margin: 5px;
+}
+.selc #product{
+    margin-right: 30px;
+}
+.selc label{
+    padding-left: 10px;
+}
+.selc select{
+    margin-left: 10px;
+}
+
+#quantity{
+    margin-left: 38%;
+}
+
+.collect .card{
+    display: flex;
+    flex-direction: row;
+}
+.collect .card .card-text{
+    font-size: small;
+}
+.collect .card .card-text span{
+    font-size: smaller;
+}

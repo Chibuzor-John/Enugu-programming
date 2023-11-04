@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color: rgb(143, 137, 137);
+    position: sticky;
+}
+
+.info_wrapper{
+    display: flex;
+}
+.info_wrapper .category li, .info_wrapper .info li, .info_wrapper .account li, .info_wrapper .follow-us li{
+    list-style: none;
+}
+.info_wrapper .info li, .info_wrapper .account li, .info_wrapper .follow-us li{
+    margin-left: 120px;
+}
+
+.publish{
+    display: block;
+}

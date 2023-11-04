@@ -1,0 +1,12 @@
+.wrapper{
+    background-color: black;
+}
+.sec_wrapper{
+    background-color: whitesmoke;
+}
+.sec_item a{
+    font-weight: bold;
+    color: black;
+    /* font-size: 0.7rem; */
+
+}
